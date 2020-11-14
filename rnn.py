@@ -65,7 +65,7 @@ bufferSize = 10000
 epochs = 1000
 
 # Load text in as a string and create a list of unique characters in the text
-sampleText = open('dxd.txt', 'r').read()
+sampleText = open('tiny-shakespeare.txt', 'r').read()
 uniqueChars = sorted(set(sampleText))
 
 # Create two lookup tables for converting characters to integers and vice-versa
