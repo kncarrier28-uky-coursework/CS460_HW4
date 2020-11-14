@@ -62,7 +62,7 @@ def generateText(model, start):
 sequenceLength = 100
 batchSize = 64
 bufferSize = 10000
-epochs = 1000
+epochs = 30
 
 # Load text in as a string and create a list of unique characters in the text
 sampleText = open('tiny-shakespeare.txt', 'r').read()
